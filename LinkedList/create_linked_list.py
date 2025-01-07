@@ -8,7 +8,14 @@ class LinkedList:
     def __init__(self):
         self.head=None
 
+    def display(self):
+        current = self.head
+        if not current:
+            print("The linked list is empty.")
+            
+
 
 ll = LinkedList()
 
-print(ll)
+
+ll.display()
